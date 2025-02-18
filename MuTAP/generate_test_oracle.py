@@ -5,7 +5,7 @@ import os
 #from Sematic_err_correction import check_test_oracle_sematic
 import sys
 
-openai.api_key = "My_key"
+openai.api_key = "key"
 #a function to generate the intial prompt to call the model
 def initalPromptGenerator(function_to_test):
     inital_prompt = f""" Generate test cases for
